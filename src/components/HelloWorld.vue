@@ -27,10 +27,18 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+    <Row>
+      <Col span="12">1</Col>
+      <Col span="12">2</Col>
+    </Row>
   </div>
 </template>
 
 <script>
+import Vue  from 'vue';
+import {Row,Col} from 'view-design';
+Vue.component(Row)
+Vue.component(Col);
 export default {
   name: 'HelloWorld',
   props: {

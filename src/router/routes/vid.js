@@ -2,7 +2,7 @@ export default  [
     {
         path:'/login',
         name:'login',
-        component:()=>import('@/views/video/Happy'),
+        component:()=>import('@/views/Happy/Happy'),
         meta:{
             name:'娱乐',
             requireAuth:true
